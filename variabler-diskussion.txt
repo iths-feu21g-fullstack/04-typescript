@@ -1,0 +1,20 @@
+Vilka datatyper har JS?
+
+- string
+- boolean
+- number  (NaN är ett number)
+- null
+- undefined
+- object
+- Symbol  (ovanlig)
+- BigInt  (ny!)
+
+let x = 5  // värdet ligger direkt i variabeln (primitiv datatyp)
+let y = x  // y är en kopia av värdet 5
+
+let o1 = {}  // o1 har en REFERENS till objektet
+let o2 = o1  // o2 är en referens till SAMMA objekt
+let o3 = {}
+
+o1 === o2  // true
+o1 === o3  // false
