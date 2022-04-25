@@ -3,6 +3,7 @@ console.log('Hello world from a TypeScript file')
 
 let username: string  // explicit datatyp
 // username = true  // detta är inte okej, och TypeScript hittar felet åt oss
+username = 'David'
 
 console.log(`Welcome ${username}!`)
 

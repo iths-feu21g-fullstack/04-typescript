@@ -4,14 +4,19 @@
   "description": "TypeScript example",
   "main": "index.js",
   "scripts": {
-	  "build": "tsc script.ts",
-	  "start": "node script.js",
-	  "build-and-start": "tsc script.ts && node script.js"
+    "build": "tsc -p .",
+    "start": "node script.js",
+    "build-and-start": "tsc script.ts && node script.js"
   },
-  "keywords": ["typescript"],
+  "keywords": [
+    "typescript"
+  ],
   "author": "David Andersson",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@types/es6-promise": "^3.3.0"
   }
 }
